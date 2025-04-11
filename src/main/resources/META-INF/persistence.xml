@@ -17,12 +17,20 @@
 
     <persistence-unit name = "grepp-hibernate-exp1">
 
+        <class>io.jieun.domain.eg1.Member</class>
+
         <properties>
             <!--     url, username, password       -->
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/grepp_hibernate_test" />
             <property name="jakarta.persistence.jdbc.user" value="happy"/>
             <property name="jakarta.persistence.jdbc.password" value="jieun"/>
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="true"/>
+<!--            <property name="hibernate." value=""/>-->
+
         </properties>
 
     </persistence-unit>
