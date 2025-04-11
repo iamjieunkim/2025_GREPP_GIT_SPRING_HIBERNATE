@@ -7,8 +7,7 @@ import jakarta.persistence.*;
         name = "ACCOUNT_SEQ_TABLE",
         table = "CST_SEQUENCE_CHECK",
         pkColumnName = "OTHER_ACCOUNT_SEQ",
-        allocationSize = 1,
-        initialValue = 1
+        allocationSize = 1
 )
 public class OtherAccount {
 
