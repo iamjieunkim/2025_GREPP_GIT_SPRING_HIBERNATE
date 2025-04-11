@@ -29,9 +29,15 @@
 
     <persistence-unit name = "grepp-hibernate-exp1">
 
-        <class>io.jieun.domain.eg1.Member</class>
+<!--        <class>io.jieun.domain.eg1.Member</class>-->
 <!--        <class>io.jieun.domain.eg2._3.OtherAccount</class>-->
-        <class>io.jieun.domain.eg2._3.GymMemberShip</class>
+<!--        <class>io.jieun.domain.eg2._3.GymMemberShip</class>-->
+
+        <class>io.jieun.domain.eg3._1.Team</class>
+        <class>io.jieun.domain.eg3._1.Player</class>
+
+<!--        <class>io.jieun.domain.eg3._3.Lecture</class>-->
+<!--        <class>io.jieun.domain.eg3._3.Student</class>-->
 
         <properties>
             <!--     url, username, password       -->
@@ -44,7 +50,7 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
 
-            <property name="hibernate.hbm2ddl.auto" value="create"/>
+<!--            <property name="hibernate.hbm2ddl.auto" value="create"/>-->
 
 
         </properties>
