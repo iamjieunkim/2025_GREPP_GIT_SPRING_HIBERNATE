@@ -8,6 +8,7 @@
 
         <class>io.jieun.domain.eg2._1.Post</class>
         <class>io.jieun.domain.eg2._2.Product</class>
+        <class>io.jieun.domain.eg2._3.Account</class>
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
@@ -28,6 +29,7 @@
     <persistence-unit name = "grepp-hibernate-exp1">
 
         <class>io.jieun.domain.eg1.Member</class>
+        <class>io.jieun.domain.eg2._3.OtherAccount</class>
 
         <properties>
             <!--     url, username, password       -->
@@ -39,7 +41,9 @@
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
-<!--            <property name="hibernate." value=""/>-->
+
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+
 
         </properties>
 

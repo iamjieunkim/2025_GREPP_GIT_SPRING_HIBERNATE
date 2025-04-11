@@ -13,7 +13,7 @@ public class EntityObjTests {
     @BeforeAll
     static void init() {
         entityManagerFactory =
-                Persistence.createEntityManagerFactory("grepp-hibernate-exp2");
+                Persistence.createEntityManagerFactory("grepp-hibernate-exp1");
     }
 
     @BeforeEach
