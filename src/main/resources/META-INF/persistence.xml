@@ -11,6 +11,8 @@
         <class>io.jieun.domain.eg2._3.Account</class>
 <!--        <class>io.jieun.domain.eg2._3.GymMemberShip</class>-->
 
+        <class>io.jieun.domain.eg4._1.Coffee</class>
+
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:h2:./test" />
